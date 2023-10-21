@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h2 class="title">welcome</h2>
     <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -28,5 +29,7 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
+}.title{
+  color: blue;
 }
 </style>
